@@ -86,7 +86,7 @@
 &mt LEFT_CONTROL Q  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 3 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 4 SPACE       &lt 5 GRAVE                                          &mt RIGHT_SHIFT P
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         FUNCTION {
@@ -97,7 +97,7 @@
 &trans           &trans     &trans             &trans       &trans          &trans      &trans            &trans                                                                        &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_DOWN>;
         };
 
         NUM {
@@ -108,7 +108,7 @@
 &trans     &trans     &trans             &trans     &trans    &trans          &trans     &trans                                                    &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
         ARROW {
@@ -119,7 +119,7 @@
 &trans                     &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                   &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            sensor-bindings = <&inc_dec_kp LC(K_SCROLL_UP) LC(K_SCROLL_DOWN)>;
         };
 
         MOUSE {
@@ -146,6 +146,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &bootloader  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans       &trans                          &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
         };
     };
