@@ -82,7 +82,7 @@
             bindings = <
 &kp ESCAPE          &kp W         &kp E           &kp R      &kp T                                             &kp Y        &kp U  &kp I           &kp O            &kp BACKSPACE
 &kp A               &kp S         &kp D           &kp F      &kp G        &kp LS(LG(S))      &kp LEFT_BRACKET  &kp H        &kp J  &kp K           &kp L            &kp ENTER
-&mt LEFT_SHIFT Z    &kp X         &kp C           &kp V      &kp B        &kp PERIOD         &kp COMMA         &kp N        &kp M  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SLASH
+&kp Z               &kp X         &kp C           &kp V      &kp B        &kp PERIOD         &kp COMMA         &kp N        &kp M  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SLASH
 &mt LEFT_CONTROL Q  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 3 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 4 SPACE       &lt 5 GRAVE                                          &mt RIGHT_SHIFT P
             >;
 
