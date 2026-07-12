@@ -1,3 +1,5 @@
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
+
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
@@ -65,6 +67,13 @@
     };
 
     behaviors {
+        scroll_encoder: scroll_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
+            tap-ms = <30>;
+        };
+
         lt_to_layer_0: lt_to_layer_0 {
             compatible = "zmk,behavior-hold-tap";
             label = "LAYER_TAP_TO_0";
@@ -86,7 +95,7 @@
 &mt LEFT_CONTROL Q  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 3 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 4 SPACE       &lt 5 GRAVE                                          &mt RIGHT_SHIFT P
             >;
 
-            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         FUNCTION {
@@ -97,7 +106,7 @@
 &trans           &trans     &trans             &trans       &trans          &trans      &trans            &trans                                                                        &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         NUM {
@@ -108,7 +117,7 @@
 &trans     &trans     &trans             &trans     &trans    &trans          &trans     &trans                                                    &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         ARROW {
@@ -119,7 +128,7 @@
 &trans                     &trans                  &trans          &trans                   &trans   &trans      &trans  &trans                                                   &kp DELETE
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(K_SCROLL_UP) LC(K_SCROLL_DOWN)>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         MOUSE {
