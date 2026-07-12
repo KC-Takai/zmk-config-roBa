@@ -86,7 +86,7 @@
 &mt LEFT_CONTROL Q  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 3 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 4 SPACE       &lt 5 GRAVE                                          &mt RIGHT_SHIFT P
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
+            sensor-bindings = <&inc_dec_kp DOWN UP_ARROW>;
         };
 
         FUNCTION {
