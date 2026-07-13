@@ -71,6 +71,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
             tap-ms = <15>;
         };
 
@@ -92,7 +93,7 @@
 &kp ESCAPE          &kp W         &kp E           &kp R      &kp T                                             &kp Y        &kp U  &kp I           &kp O            &kp BACKSPACE
 &kp A               &kp S         &kp D           &kp F      &kp G        &kp LS(LG(S))      &kp LEFT_BRACKET  &kp H        &kp J  &kp K           &kp L            &kp ENTER
 &kp Z               &kp X         &kp C           &kp V      &kp B        &kp PERIOD         &kp COMMA         &kp N        &kp M  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SLASH
-&mt LEFT_CONTROL Q  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 3 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 4 SPACE       &lt 5 GRAVE                                          &mt RIGHT_SHIFT P
+&mt LEFT_CONTROL Q  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 5 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 3 SPACE       &lt 4 MINUS                                          &mt RIGHT_SHIFT P
             >;
 
             sensor-bindings = <&scroll_encoder>;
