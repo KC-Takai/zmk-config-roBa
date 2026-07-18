@@ -90,10 +90,10 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE          &kp W         &kp E           &kp R      &kp T                                        &kp Y        &kp U  &kp I           &kp O            &kp BACKSPACE
-&kp A               &kp S         &kp D           &kp F      &kp G        &kp LS(LG(S))      &kp MINUS    &kp H        &kp J  &kp K           &kp L            &kp ENTER
-&kp Z               &kp X         &kp C           &kp V      &kp B        &kp PERIOD         &kp COMMA    &kp N        &kp M  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SLASH
-&mt LEFT_CONTROL Q  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 5 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 3 SPACE  &lt 4 MINUS                                          &mt RIGHT_SHIFT P
+&kp LC(LS(Q))          &kp W         &kp E           &kp R      &kp T                                        &kp Y        &kp U  &kp I           &kp O            &kp BACKSPACE
+&kp A                  &kp S         &kp D           &kp F      &kp G        &kp LS(LG(S))      &kp MINUS    &kp H        &kp J  &kp K           &kp L            &kp ENTER
+&kp Z                  &kp X         &kp C           &kp V      &kp B        &kp PERIOD         &kp COMMA    &kp N        &kp M  &kp LEFT_ARROW  &kp RIGHT_ARROW  &kp SLASH
+&mt LEFT_CONTROL INT1  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 5 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 3 SPACE  &lt 4 MINUS                                          &mt RIGHT_SHIFT P
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -104,7 +104,7 @@
 &kp EXCLAMATION  &kp AT     &kp HASH           &kp PERCENT  &kp CARET                                     &kp ASTRK          &kp LS(LEFT_PARENTHESIS)  &kp PLUS       &kp PIPE          &kp MINUS
 &kp AMPERSAND    &kp AT     &trans             &trans       &trans          &trans      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH             &kp SEMICOLON  &kp SINGLE_QUOTE  &kp ENTER
 &kp COLON        &kp MINUS  &kp DOUBLE_QUOTES  &kp SLASH    &kp UNDERSCORE  &trans      &trans            &kp LESS_THAN      &kp GREATER_THAN          &kp QUESTION   &kp INT1          &mt RIGHT_SHIFT SLASH
-&trans           &trans     &trans             &trans       &trans          &trans      &trans            &trans                                                                        &kp DELETE
+&kp ESCAPE       &trans     &trans             &trans       &trans          &trans      &trans            &trans                                                                        &kp DELETE
             >;
 
             sensor-bindings = <&scroll_encoder>;
