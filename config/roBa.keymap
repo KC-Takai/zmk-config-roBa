@@ -96,7 +96,7 @@
 &mt LEFT_CONTROL INT1  &kp LEFT_WIN  &kp LEFT_SHIFT  &lt 5 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 3 SPACE  &lt 4 MINUS                                          &mt RIGHT_SHIFT P
             >;
 
-            sensor-bindings = <&scroll_encoder>, <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         FUNCTION {
