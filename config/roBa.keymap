@@ -96,7 +96,7 @@
 &mt LEFT_CONTROL INT1  &mt LEFT_WIN LEFT_ALT  &kp LEFT_SHIFT  &lt 5 TAB  &lt 2 GRAVE  &lt 1 SPACE        &lt 3 SPACE  &lt 4 MINUS                                 &mt RIGHT_SHIFT P
             >;
 
-            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN>;
+            sensor-bindings = <&inc_dec_kp DOWN UP>;
         };
 
         FUNCTION {
