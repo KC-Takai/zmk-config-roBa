@@ -71,8 +71,14 @@
             compatible = "zmk,behavior-sensor-rotate";
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-
             tap-ms = <5>;
+        };
+
+        arrow_encoder: arrow_encoder {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&kp UP_ARROW>, <&kp DOWN_ARROW>;
+            tap-ms = <1>;  // ★ここを「1」にすることで、絶対に長押し（リピート）させない
         };
 
         lt_to_layer_0: lt_to_layer_0 {
