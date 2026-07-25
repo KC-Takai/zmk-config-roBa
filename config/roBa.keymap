@@ -12,6 +12,7 @@
 
 &trackball {
     //automouse-layer = <4>;
+
     scroll-layers = <5>;
 
     // arrows {
@@ -33,22 +34,22 @@
 
         Left_Click {
             bindings = <&mkp LCLK>;
-            key-positions = <17 18>;
+            key-positions = <18 19>;
         };
 
         Right_Click {
             bindings = <&mkp RCLK>;
-            key-positions = <20 19>;
+            key-positions = <19 18>;
         };
 
         Mouse_prev {
             bindings = <&mkp MB4>;
-            key-positions = <29 30>;
+            key-positions = <30 31>;
         };
 
         next {
             bindings = <&mkp MB5>;
-            key-positions = <31 32>;
+            key-positions = <31 30>;
         };
     };
 
