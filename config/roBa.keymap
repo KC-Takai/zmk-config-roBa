@@ -98,7 +98,7 @@
 &kp EXCLAMATION  &kp AT     &kp HASH           &kp PERCENT  &kp CARET                                             &kp ASTRK          &kp LS(LEFT_PARENTHESIS)  &kp PLUS       &kp PIPE          &kp MINUS
 &kp AMPERSAND    &kp AT     &trans             &trans       &trans          &trans              &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH             &kp SEMICOLON  &kp SINGLE_QUOTE  &kp ENTER
 &kp COLON        &kp MINUS  &kp DOUBLE_QUOTES  &kp SLASH    &kp UNDERSCORE  &kp LEFT_ARROW      &kp RIGHT_ARROW   &kp LESS_THAN      &kp GREATER_THAN          &kp QUESTION   &kp INT1          &mt RIGHT_SHIFT SLASH
-&kp ESCAPE       &trans     &trans             &trans       &trans          &trans              &trans            &trans                                                                        &kp DELETE
+&kp ESCAPE       &trans     &trans             &trans       &trans          &trans              &trans            &trans                                                                        &kp UNDER
             >;
 
             sensor-bindings = <&scroll_encoder>;
