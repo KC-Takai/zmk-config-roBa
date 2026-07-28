@@ -39,7 +39,7 @@
 
         Right_Click {
             bindings = <&mkp RCLK>;
-            key-positions = <19 18>;
+            key-positions = <19 20>;
         };
     };
 
