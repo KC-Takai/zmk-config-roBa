@@ -38,8 +38,13 @@
         };
 
         Right_Click {
-            bindings = <&mkp RCLK>;
+            bindings = <&mkp LCLK>;
             key-positions = <19 18>;
+        };
+
+        Right_Click {
+            bindings = <&mkp RCLK>;
+            key-positions = <8 9>;
         };
     };
 
